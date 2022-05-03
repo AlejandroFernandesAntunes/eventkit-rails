@@ -4,8 +4,8 @@ group :development, :test do
 	gem 'sqlite3'
 	gem 'rspec'
 	gem 'rspec-rails'
-	gem 'factory_girl'
-	gem 'factory_girl_rails'
+	gem 'factory_bot'
+	gem 'factory_bot_rails'
 	gem 'rspec_api_test'
 	gem 'pry-nav'
 	gem 'pry'
@@ -32,7 +32,7 @@ gem 'ember-source'
 gem 'ember-data-source'
 gem 'ember-handlebars-template'
 gem 'bigdecimal'
-
+gem 'font-awesome-sass', '4.2.0'
 group :doc do
 	gem 'sdoc', require: false
 end
